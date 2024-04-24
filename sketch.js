@@ -69,10 +69,10 @@ function drawHeadSwaps() {
     textAlign(CENTER, BOTTOM);
     fill(255, 0, 0); 
     textSize(25);
-    text("I am ____, nice to meet you!", -headBCenterX, headBCenterY - headB.height / 2 - 10);
+    text("Hello, nice to meet you!", -headBCenterX, headBCenterY - headB.height / 2 - 10);
     fill(40, 190, 255);
     textSize(25);
-    text("I am ____, nice to meet you, too!", -headACenterX, headACenterY - headA.height / 2 - 10);
+    text("Hi! Good to see you!", -headACenterX, headACenterY - headA.height / 2 - 10);
     pop();
   }
 }
